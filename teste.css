@@ -41,27 +41,3 @@ body {
     padding: 10px;
     text-align: center;
   }
-<<<<<<< Updated upstream
-  
-=======
-
-  p{
-    font-size: 22px;
-  }
-
-  a:hover {
-    color: red;
-  }
-  
-  .link-color {
-    color: blue;
-}
-
-.footer-links li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-
-
->>>>>>> Stashed changes
