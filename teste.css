@@ -4,10 +4,13 @@ body {
     padding: 0;
   }
   
-  header {
+  .header {
     background-color: lightblue;
-    padding: 20px;
-    text-align: center;
+    padding: 1.5em;
+    text-align: left;
+    margin-bottom: 10%;
+    margin-top: 0%;
+    display: flex;
   }
   
   nav {
@@ -21,13 +24,6 @@ body {
     margin: 0;
     padding: 0;
     display: inline-block;
-  }
-
- li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    color: skyblue;
   }
 
   ol {
@@ -50,14 +46,18 @@ body {
     padding: 20px;
     text-align: center;
   }
-  
-  footer {
-    background-color: lightgray;
-    padding: 10px;
-    text-align: center;
-  }
 
   p{
     font-size: 22px;
   }
-  
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between 1000px;
+  }
